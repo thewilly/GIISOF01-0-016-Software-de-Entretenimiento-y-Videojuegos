@@ -9,9 +9,10 @@ class Modelo {
         this.alto = this.imagen.height;
     }
 
-    dibujar (){
+    dibujar (scrollX){
+        scrollX = scrollX || 0;
         contexto.drawImage( this.imagen,
-            this.x - this.ancho /2,
+            this.x - this.ancho /2 - scrollX,
             this.y - this.alto /2 );
     }
 

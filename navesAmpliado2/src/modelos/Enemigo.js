@@ -12,6 +12,7 @@ class Enemigo extends Modelo {
 
         this.vy = 0;
         this.vx = 1;
+        this.tiempoDisparo = 50;
     }
 
     actualizar() {
@@ -20,9 +21,24 @@ class Enemigo extends Modelo {
 
         this.vx = -1;
         this.x = this.x + this.vx;
+
+        // Tiempo Disparo
+        if ( this.tiempoDisparo > 0 ) {
+            this.tiempoDisparo--;
+        }
     }
 
     dibujar (){
         this.animacion.dibujar(this.x, this.y);
+    }
+
+    disparar(){
+        if ( this.tiempoDisparo == 0) {
+            // reiniciar Cadencia
+            this.tiempoDisparo = this.cadenciaDisparo;
+            return new DisparoEnemigo(this.x, this.y);
+        } else {
+            return null;
+        }
     }
 }

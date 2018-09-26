@@ -6,8 +6,10 @@ class GameLayer extends Layer {
     }
 
     iniciar() {
-        this.jugador = new Jugador(50, 50);
-        this.fondo = new Fondo(imagenes.fondo,480*0.5,320*0.5);
+
+        this.scrollX = 0;
+
+        this.fondo = new Fondo(imagenes.fondo_2,480*0.5,320*0.5);
 
         // Creando el icono de puntos.
         this.fondoPuntos =
@@ -16,11 +18,15 @@ class GameLayer extends Layer {
 
         // Creando enemigos.
         this.enemigos = [];
-        this.enemigos.push(new Enemigo(300,50));
-        this.enemigos.push(new Enemigo(350,200));
 
         // Creando disparos.
         this.disparosJugador = [];
+
+        // Creando los bloques del juego.
+        this.bloques = [];
+
+        // Cargando el mapa
+        this.cargarMapa("res/0.txt");
 
     }
 
@@ -40,20 +46,6 @@ class GameLayer extends Layer {
 
                 this.disparosJugador.splice(i, 1);
             }
-        }
-
-        // Generar Enemigos
-        if (this.iteracionesCrearEnemigos == null){
-            this.iteracionesCrearEnemigos = 0;
-        }
-        // iteracionesCrearEnemigos tiene que ser un número
-        this.iteracionesCrearEnemigos ++;
-
-        if ( this.iteracionesCrearEnemigos > 110){
-            var rX = Math.random() * (600 - 500) + 500;
-            var rY = Math.random() * (300 - 60) + 60;
-            this.enemigos.push(new Enemigo(rX,rY));
-            this.iteracionesCrearEnemigos = 0;
         }
 
         this.jugador.actualizar();
@@ -79,28 +71,42 @@ class GameLayer extends Layer {
                     this.disparosJugador[i].colisiona(this.enemigos[j])) {
 
                     this.disparosJugador.splice(i, 1);
-                    this.enemigos.splice(j, 1);
+                    this.enemigos[j].impactado();
                     this.puntos.valor++;
                 }
             }
         }
-
 
         // Actualizando disparos.
         for (var i=0; i < this.disparosJugador.length; i++) {
             this.disparosJugador[i].actualizar();
         }
 
+        // Eliminando enemigos muertos fuera del juego
+        for (var j=0; j < this.enemigos.length; j++){
+            if ( this.enemigos[j] != null &&
+                this.enemigos[j].estado == estados.muerto  ) {
+                this.enemigos.splice(j, 1);
+            }
+        }
+
     }
 
     dibujar (){
 
+        this.calcularScroll();
+
         // Pintando el fondo.
         this.fondo.dibujar();
 
+        // Dibujando los bloques.
+        for (var i=0; i < this.bloques.length; i++){
+            this.bloques[i].dibujar(this.scrollX);
+        }
+
         // Dibujando enemigos.
         for (var i=0; i < this.disparosJugador.length; i++) {
-            this.disparosJugador[i].dibujar();
+            this.disparosJugador[i].dibujar(this.scrollX);
         }
 
         // Pintando el jugador
@@ -108,7 +114,7 @@ class GameLayer extends Layer {
 
         // Pintando los enemigos.
         for (var i=0; i < this.enemigos.length; i++){
-            this.enemigos[i].dibujar();
+            this.enemigos[i].dibujar(this.scrollX);
         }
 
         //DIBUJANDO ELEMENTOS DE PUNTUACIÓN
@@ -151,6 +157,53 @@ class GameLayer extends Layer {
             this.jugador.moverY(0);
         }
 
+    }
+
+    cargarMapa(ruta){
+        var fichero = new XMLHttpRequest();
+        fichero.open("GET", ruta, false);
+
+        fichero.onreadystatechange = function () {
+            var texto = fichero.responseText;
+            var lineas = texto.split('\n');
+            for (var i = 0; i < lineas.length; i++){
+                var linea = lineas[i];
+                for (var j = 0; j < linea.length; j++){
+                    var simbolo = linea[j];
+                    var x = 40/2 + j * 40; // x central
+                    var y = 32 + i * 32; // y de abajo
+                    this.cargarObjetoMapa(simbolo,x,y);
+                }
+            }
+        }.bind(this);
+
+        fichero.send(null);
+    }
+
+    cargarObjetoMapa(simbolo, x, y){
+        switch(simbolo) {
+            case "E":
+                var enemigo = new Enemigo(x,y);
+                enemigo.y = enemigo.y - enemigo.alto/2;
+                // modificación para empezar a contar desde el suelo
+                this.enemigos.push(enemigo);
+                break;
+            case "1":
+                this.jugador = new Jugador(x, y);
+                // modificación para empezar a contar desde el suelo
+                this.jugador.y = this.jugador.y - this.jugador.alto/2;
+                break;
+            case "#":
+                var bloque = new Bloque(imagenes.bloque_tierra, x,y);
+                bloque.y = bloque.y - bloque.alto/2;
+                // modificación para empezar a contar desde el suelo
+                this.bloques.push(bloque);
+                break;
+        }
+    }
+
+    calcularScroll(){
+        this.scrollX = this.jugador.x ;
     }
 
 }

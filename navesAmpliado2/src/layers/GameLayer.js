@@ -22,6 +22,12 @@ class GameLayer extends Layer {
         // Creando disparos.
         this.disparosJugador = [];
 
+        // Creando disparos.
+        this.disparosEnemigos = [];
+
+        // Creando Bombas.
+        this.bombas = [];
+
     }
 
     actualizar (){
@@ -33,6 +39,7 @@ class GameLayer extends Layer {
 
         // Comprobando disparos fuera de pantalla
         console.log("disparosJugador: "+this.disparosJugador.length);
+
         // Eliminar disparos fuera de pantalla
         for (var i=0; i < this.disparosJugador.length; i++){
             if ( this.disparosJugador[i] != null &&
@@ -46,14 +53,32 @@ class GameLayer extends Layer {
         if (this.iteracionesCrearEnemigos == null){
             this.iteracionesCrearEnemigos = 0;
         }
+
+        // Generar bombas
+        if (this.iteracionesCrearBombas == null){
+            this.iteracionesCrearBombas = 0;
+        }
+
         // iteracionesCrearEnemigos tiene que ser un número
         this.iteracionesCrearEnemigos ++;
 
+        // iteracionesCrearBombas tiene que ser un número
+        this.iteracionesCrearBombas ++;
+
+        // Generando Enemigos.
         if ( this.iteracionesCrearEnemigos > 110){
             var rX = Math.random() * (600 - 500) + 500;
             var rY = Math.random() * (300 - 60) + 60;
             this.enemigos.push(new Enemigo(rX,rY));
             this.iteracionesCrearEnemigos = 0;
+        }
+
+        // Generando Bombas
+        if ( this.iteracionesCrearBombas > 200){
+            var rX = Math.random() * (600 - 500) + 500;
+            var rY = Math.random() * (300 - 60) + 60;
+            this.bombas.push(new Bomba(rX,rY));
+            this.iteracionesCrearBombas = 0;
         }
 
         this.jugador.actualizar();
@@ -63,11 +88,24 @@ class GameLayer extends Layer {
             this.enemigos[i].actualizar();
         }
 
+        // Actualizando enemigos.
+        for (var i=0; i < this.bombas.length; i++){
+            this.bombas[i].actualizar();
+        }
+
         // Actualizando colisiones
         // Enemigo - Jugador
         for (var i=0; i < this.enemigos.length; i++){
             if ( this.jugador.colisiona(this.enemigos[i])){
                 this.iniciar();
+            }
+        }
+
+        // Bomba - Jugador
+        for (var i=0; i < this.bombas.length; i++){
+            if ( this.jugador.colisiona(this.bombas[i])){
+                this.enemigos = [];
+                this.bombas = [];
             }
         }
 
@@ -85,10 +123,30 @@ class GameLayer extends Layer {
             }
         }
 
+        // DisparoEnemigo - Jugador
+        for (var i=0; i < this.disparosEnemigos.length; i++){
+            if(this.jugador.colisiona(this.disparosEnemigos[i])) {
+                this.iniciar();
+            }
+        }
 
-        // Actualizando disparos.
+
+        // Actualizando disparos jugador.
         for (var i=0; i < this.disparosJugador.length; i++) {
             this.disparosJugador[i].actualizar();
+        }
+
+        // Actualizando disparos de enemigos.
+        for (var i=0; i < this.disparosEnemigos.length; i++) {
+            this.disparosEnemigos[i].actualizar();
+        }
+
+        // Actualizando disparos enemigos.
+        for(var i=0; i < this.enemigos.length; i++) {
+            var nuevoDisparo = this.enemigos[i].disparar();
+            if ( nuevoDisparo != null ) {
+                this.disparosEnemigos.push(nuevoDisparo);
+            }
         }
 
     }
@@ -103,12 +161,22 @@ class GameLayer extends Layer {
             this.disparosJugador[i].dibujar();
         }
 
+        // Dibujando disparos de enemigos.
+        for (var i=0; i < this.disparosEnemigos.length; i++) {
+            this.disparosEnemigos[i].dibujar();
+        }
+
         // Pintando el jugador
         this.jugador.dibujar();
 
         // Pintando los enemigos.
         for (var i=0; i < this.enemigos.length; i++){
             this.enemigos[i].dibujar();
+        }
+
+        // Pintando las bombas.
+        for (var i=0; i < this.bombas.length; i++){
+            this.bombas[i].dibujar();
         }
 
         //DIBUJANDO ELEMENTOS DE PUNTUACIÓN

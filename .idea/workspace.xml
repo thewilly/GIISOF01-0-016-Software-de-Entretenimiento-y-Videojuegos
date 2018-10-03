@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d9e8ed2-f057-40f3-abd1-9d6a4f666e31" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navesAmpliado2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navesAmpliado2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navesAmpliado2/.idea/naves.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navesAmpliado2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plataformas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plataformas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plataformas/.idea/naves.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plataformas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/modelos/Jugador.js" beforeDir="false" afterPath="$PROJECT_DIR$/navesAmpliado/src/modelos/Jugador.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/modelos/Modelo.js" beforeDir="false" afterPath="$PROJECT_DIR$/plataformas/src/modelos/Modelo.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Boton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Boton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Globales.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/Globales.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/layers/Layer.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="GameLayer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/layers/GameLayer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventosTeclado.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/EventosTeclado.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pad.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Pad.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventosPulsacion.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/EventosPulsacion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>enemigo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/naves/src/modelos/Texto.js" />
+        <option value="$PROJECT_DIR$/naves/index.html" />
+        <option value="$PROJECT_DIR$/naves/src/graficos/Animacion.js" />
+        <option value="$PROJECT_DIR$/naves/src/modelos/Enemigo.js" />
+        <option value="$PROJECT_DIR$/naves/src/modelos/Modelo.js" />
+        <option value="$PROJECT_DIR$/naves/src/modelos/Fondo.js" />
+        <option value="$PROJECT_DIR$/naves/src/layers/GameLayer.js" />
+        <option value="$PROJECT_DIR$/naves/src/Res.js" />
+        <option value="$PROJECT_DIR$/naves/src/modelos/Bomba.js" />
+        <option value="$PROJECT_DIR$/navesAmpliado2/src/modelos/Bomba.js" />
+        <option value="$PROJECT_DIR$/navesAmpliado2/index.html" />
+        <option value="$PROJECT_DIR$/navesAmpliado2/src/modelos/DisparoJugador.js" />
+        <option value="$PROJECT_DIR$/navesAmpliado2/src/modelos/DisparoEnemigo.js" />
+        <option value="$PROJECT_DIR$/navesAmpliado2/src/layers/GameLayer.js" />
+        <option value="$PROJECT_DIR$/navesAmpliado2/src/modelos/Enemigo.js" />
+        <option value="$PROJECT_DIR$/plataformas/src/Res.js" />
+        <option value="$PROJECT_DIR$/plataformas/src/Globales.js" />
+        <option value="$PROJECT_DIR$/plataformas/src/graficos/Animacion.js" />
+        <option value="$PROJECT_DIR$/plataformas/src/modelos/Bloque.js" />
+        <option value="$PROJECT_DIR$/plataformas/index.html" />
+        <option value="$PROJECT_DIR$/plataformas/res/0.txt" />
+        <option value="$PROJECT_DIR$/plataformas/src/modelos/Enemigo.js" />
+        <option value="$PROJECT_DIR$/plataformas/src/layers/GameLayer.js" />
+        <option value="$PROJECT_DIR$/plataformas/Main.js" />
+        <option value="$PROJECT_DIR$/plataformas/src/modelos/Jugador.js" />
+        <option value="$PROJECT_DIR$/navesAmpliado/src/modelos/Jugador.js" />
+        <option value="$PROJECT_DIR$/plataformas/src/modelos/Modelo.js" />
+        <option value="$PROJECT_DIR$/pataformas2/src/modelos/Modelo.js" />
+        <option value="$PROJECT_DIR$/pataformas2/src/modelos/DisparoJugador.js" />
+        <option value="$PROJECT_DIR$/pataformas2/index.html" />
+        <option value="$PROJECT_DIR$/pataformas2/src/modelos/Jugador.js" />
+        <option value="$PROJECT_DIR$/pataformas2/src/Espacio.js" />
+        <option value="$PROJECT_DIR$/pataformas2/src/modelos/Enemigo.js" />
+        <option value="$PROJECT_DIR$/pataformas2/src/Globales.js" />
+        <option value="$PROJECT_DIR$/pataformas2/src/layers/GameLayer.js" />
+        <option value="$PROJECT_DIR$/pataformas2/res/0.txt" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/src/EventosPolsacion.js" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/res/0.txt" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/EnemigoInteligente.js" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Boton.js" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Pad.js" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/index.html" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/src/layers/GameLayer.js" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/src/Globales.js" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/Main.js" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/src/EventosTeclado.js" />
+        <option value="$PROJECT_DIR$/pataformas2Entenamiento/src/EventosPulsacion.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="1194" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="462c0819:PsiDirectoryNode" />
+              <item name="pataformas2Entenamiento" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="462c0819:PsiDirectoryNode" />
+              <item name="pataformas2Entenamiento" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="462c0819:PsiDirectoryNode" />
+              <item name="pataformas2Entenamiento" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" type="462c0819:PsiDirectoryNode" />
+              <item name="pataformas2Entenamiento" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modelos" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alumno\Desktop\GITHUB\GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos\GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos" />
+      <recent name="C:\Users\Alumno\Desktop\GITHUB\GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos\GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos\plataformas\res" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d9e8ed2-f057-40f3-abd1-9d6a4f666e31" name="Default" comment="" />
+      <created>1537952798652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537952798652</updated>
+      <workItem from="1537952802313" duration="8758000" />
+      <workItem from="1538557733426" duration="8413000" />
+    </task>
+    <task id="LOCAL-00001" summary="xzcv">
+      <created>1537961554469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537961554469</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17171000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1194" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23429541" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xzcv" />
+    <option name="LAST_COMMIT_MESSAGE" value="xzcv" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/naves/src/layers/GameLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naves/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naves/src/Res.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado/src/modelos/ElementoRecolectable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado2/src/modelos/Bomba.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado2/src/Res.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado2/src/modelos/Jugador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado2/src/modelos/Enemigo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado2/src/modelos/DisparoJugador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado2/src/modelos/DisparoEnemigo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado2/src/layers/GameLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="140" column="50" lean-forward="true" selection-start-line="140" selection-start-column="50" selection-end-line="140" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/src/Res.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/src/graficos/Animacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/src/Globales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/res/0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/src/modelos/Bloque.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/src/modelos/Enemigo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/src/modelos/Jugador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="108" column="31" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/src/layers/GameLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navesAmpliado/src/modelos/Jugador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/src/modelos/Modelo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plataformas/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/src/modelos/Modelo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/src/modelos/DisparoJugador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/Main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/src/Espacio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="177" column="61" selection-start-line="177" selection-start-column="61" selection-end-line="177" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/res/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/src/modelos/Enemigo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/src/Globales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/src/layers/GameLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="213" column="40" selection-start-line="213" selection-start-column="40" selection-end-line="213" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/src/modelos/Jugador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/res/0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/DisparoJugador.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/res/enemigo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/res/bloque_metal.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/res/0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/EnemigoInteligente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Enemigo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Jugador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="26" lean-forward="true" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Pad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/layers/GameLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/layers/Layer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/EventosTeclado.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/Globales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Boton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/EventosPulsacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

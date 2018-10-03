@@ -11,15 +11,28 @@ class Modelo {
 
     dibujar (scrollX){
         scrollX = scrollX || 0;
-        contexto.drawImage( this.imagen,
-            this.x - this.ancho /2 - scrollX,
-            this.y - this.alto /2 );
+        contexto.drawImage(this.imagen,
+            this.x - this.imagen.width/2 - scrollX,
+            this.y - this.imagen.height/2);
     }
+
+
+    estaEnPantalla (){
+        if ( (this.x - gameLayer.scrollX) - this.ancho/2 <= 480 &&
+            (this.x - gameLayer.scrollX) + this.ancho/2 >= 0 &&
+            this.y - this.alto/2 <= 320 &&
+            this.y + this.alto/2 >= 0 ){
+            return true;
+        }
+        return false;
+    }
+
+
 
     colisiona (modelo){
         var colisiona = false;
 
-        if ( modelo.x - gameLayer.scrollX ) - modelo.ancho/2 <=  (this.x - gameLayer.scrollX)  + this.ancho/2
+        if ( modelo.x - modelo.ancho/2 <=  this.x + this.ancho/2
             && modelo.x + modelo.ancho/2 >= this.x - this.ancho/2
             && this.y + this.alto/2 >= modelo.y - modelo.alto/2
             && this.y - this.alto/2 <= modelo.y + modelo.alto/2 ){
@@ -30,14 +43,5 @@ class Modelo {
         return colisiona;
     }
 
-    estaEnPantalla (){
-        if ( this.x - this.ancho/2 <= 480 &&
-            this.x + this.ancho/2 >= 0 &&
-            this.y - this.alto/2 <= 320 &&
-            this.y + this.alto/2 >= 0 ){
-            return true;
-        }
-        return false;
-    }
 
 }

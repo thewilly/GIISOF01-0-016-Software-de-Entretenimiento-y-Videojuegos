@@ -7,7 +7,6 @@ class Moneda extends Modelo {
 
         this.vy = 0;
         this.vx = 1;
-
     }
 
     actualizar() {

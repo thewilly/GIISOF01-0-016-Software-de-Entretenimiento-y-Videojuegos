@@ -14,7 +14,7 @@ class GameLayer extends Layer {
         this.fondoVidas = new Fondo(imagenes.corazon_pequenio, 480 * 0.05, 320 * 0.05);
         this.vidas = new Texto(3, 480 * 0.1, 320 * 0.07);
 
-        // AMPLIACIÓN 4 - DISPAROS FINITOS
+        // AMPLIACION 4 - DISPAROS FINITOS
         // Creando el icono de disparos disponibles.
         this.fondoDisparos = new Fondo(imagenes.bala, 480 * 0.65, 320 * 0.05);
         this.disparos = new Texto(10, 480 * 0.7, 320 * 0.07);
@@ -171,16 +171,16 @@ class GameLayer extends Layer {
         // Enemigo - Jugador
         for (var i = 0; i < this.enemigos.length; i++) {
             if (this.jugador.colisiona(this.enemigos[i])) {
-                if (this.vidas.valor == 1) {
+                if (this.vidas.valor == 1) { // AMPLIACION 3 - VIDAS.
                     this.iniciar();
                 } else {
-                    this.vidas.valor--;
+                    this.vidas.valor--; // AMPLIACION 3 - VIDAS.
                     this.enemigos.splice(i, 1);
                 }
             }
         }
 
-        // AMPLAICION 10 - BOMBAS.
+        // AMPLIACION 10 - BOMBAS.
         // Bomba - Jugador
         for (var i = 0; i < this.bombas.length; i++) {
             if (this.jugador.colisiona(this.bombas[i])) {
@@ -195,8 +195,8 @@ class GameLayer extends Layer {
         for (var i = 0; i < this.monedas.length; i++) {
             if (this.jugador.colisiona(this.monedas[i])) {
                 this.puntos.valor++;
-                if (this.vidas.valor < 3) {
-                    this.vidas.valor++;
+                if (this.vidas.valor < 3) { // AMPLIACION 3 - VIDAS.
+                    this.vidas.valor++; // AMPLIACION 3 - VIDAS.
                 }
                 this.monedas.splice(i, 1);
             }
@@ -229,10 +229,10 @@ class GameLayer extends Layer {
         // DisparoEnemigo - Jugador
         for (var i = 0; i < this.disparosEnemigos.length; i++) {
             if (this.jugador.colisiona(this.disparosEnemigos[i])) {
-                if (this.vidas.valor == 1) {
+                if (this.vidas.valor == 1) { // AMPLIACION 3 - VIDAS.
                     this.iniciar();
                 } else {
-                    this.vidas.valor--;
+                    this.vidas.valor--; // AMPLIACION 3 - VIDAS.
                     this.disparosEnemigos.splice(i, 1);
                 }
             }

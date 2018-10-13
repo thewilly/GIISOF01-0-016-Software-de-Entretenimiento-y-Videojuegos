@@ -15,7 +15,7 @@ function iniciarJuego() {
 }
 
 
-function loop(){
+function loop() {
     console.log("loop - ")
     gameLayer.actualizar();
     gameLayer.procesarControles()
@@ -32,8 +32,8 @@ function resize() {
 
     escaladoMinimo = Math.min(escaladoAncho, escaladoAlto);
 
-    canvas.width = this.canvas.width*escaladoMinimo;
-    canvas.height = this.canvas.height*escaladoMinimo;
+    canvas.width = this.canvas.width * escaladoMinimo;
+    canvas.height = this.canvas.height * escaladoMinimo;
 
-    contexto.scale(escaladoMinimo,escaladoMinimo);
+    contexto.scale(escaladoMinimo, escaladoMinimo);
 }

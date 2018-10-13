@@ -9,5 +9,4 @@ class DisparoEnemigo extends Modelo {
     actualizar() {
         this.x = this.x + this.vx;
     }
-
 }

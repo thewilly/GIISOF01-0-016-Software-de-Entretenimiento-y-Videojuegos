@@ -13,6 +13,7 @@ class Enemigo extends Modelo {
         this.vy = 0;
         this.vx = 1;
 
+        // AMPLIACION 2 - ENEMIGO CON CAPACIDAD DE DISPARO
         this.cadenciaDisparo = 200;
         this.tiempoDisparo = 0;
     }
@@ -34,6 +35,7 @@ class Enemigo extends Modelo {
         this.animacion.dibujar(this.x, this.y);
     }
 
+    // AMPLIACION 2 - ENEMIGO CON CAPACIDAD DE DISPARO
     disparar() {
         if (this.tiempoDisparo == 0) {
             // reiniciar Cadencia

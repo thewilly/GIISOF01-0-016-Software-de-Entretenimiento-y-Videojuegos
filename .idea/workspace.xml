@@ -2,20 +2,313 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d9e8ed2-f057-40f3-abd1-9d6a4f666e31" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GIISOF01-0-016-Software-de-Entretenimiento-y-Videojuegos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/navesAmpliado2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/navesAmpliado2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/navesAmpliado2/.idea/naves.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/navesAmpliado2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plataformas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plataformas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plataformas/.idea/naves.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plataformas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/modelos/Jugador.js" beforeDir="false" afterPath="$PROJECT_DIR$/navesAmpliado/src/modelos/Jugador.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plataformas/src/modelos/Modelo.js" beforeDir="false" afterPath="$PROJECT_DIR$/plataformas/src/modelos/Modelo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/.idea/naves.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/asteroide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/corazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/disparo_enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/disparo_jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/disparo_jugador2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/efecto_disparo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/efecto_explosion.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/enemigo_movimiento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/icono_puntos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/icono_recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/icono_vidas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/moneda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/musica_ambiente.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/planeta_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/planeta_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/res/recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/EventosTeclado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/Res.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/graficos/Animacion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/layers/GameLayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/layers/Layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/modelos/DisparoJugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/modelos/Enemigo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/modelos/Fondo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/modelos/Jugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/modelos/Modelo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naves/src/modelos/Texto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/asteroide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/corazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/disparo_enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/disparo_jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/disparo_jugador2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/efecto_disparo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/efecto_explosion.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/enemigo_movimiento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/icono_puntos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/icono_recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/icono_vidas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/moneda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/musica_ambiente.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/planeta_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/planeta_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/res/recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/EventosTeclado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/Res.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/layers/GameLayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/layers/Layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/modelos/DisparoJugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/modelos/ElementoRecolectable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/modelos/Enemigo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/modelos/Fondo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/modelos/Jugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado/src/modelos/Modelo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/.idea/naves.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/asteroide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/corazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/disparo_enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/disparo_jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/disparo_jugador2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/efecto_disparo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/efecto_explosion.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/enemigo_movimiento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/icono_puntos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/icono_recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/icono_vidas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/moneda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/musica_ambiente.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/planeta_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/planeta_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/res/recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/EventosTeclado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/Res.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/graficos/Animacion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/layers/GameLayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/layers/Layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/modelos/Bomba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/modelos/DisparoEnemigo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/modelos/DisparoJugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/modelos/Enemigo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/modelos/Fondo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/modelos/Jugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/modelos/Modelo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navesAmpliado2/src/modelos/Texto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/asteroide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/bloque_fondo_muro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/bloque_metal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/bloque_tierra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/boton_disparo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/boton_jugar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/boton_pausa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/boton_salto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/copa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/corazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/disparo_enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/disparo_jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/disparo_jugador2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/efecto_disparo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/efecto_explosion.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/enemigo_morir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/enemigo_movimiento - copia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/enemigo_movimiento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/fondo_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/icono_puntos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/icono_recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/icono_vidas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_corriendo_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_corriendo_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_disparando_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_disparando_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_idle_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_idle_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_impactado_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_impactado_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_saltando_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/jugador_saltando_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/mensaje_como_jugar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/mensaje_ganar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/mensaje_perder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/menu_fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/moneda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/musica_ambiente.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/planeta_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/planeta_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/res/recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/Espacio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/EventosTeclado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/Globales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/Res.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/graficos/Animacion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/layers/GameLayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/layers/Layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/modelos/Bloque.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/modelos/DisparoJugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/modelos/Enemigo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/modelos/Fondo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/modelos/Jugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/modelos/Modelo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2/src/modelos/Texto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/asteroide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/bloque_fondo_muro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/bloque_metal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/bloque_tierra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/boton_disparo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/boton_jugar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/boton_pausa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/boton_salto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/copa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/corazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/disparo_enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/disparo_jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/disparo_jugador2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/efecto_disparo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/efecto_explosion.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/enemigo_morir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/enemigo_movimiento - copia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/enemigo_movimiento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/fondo_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/icono_puntos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/icono_recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/icono_vidas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_corriendo_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_corriendo_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_disparando_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_disparando_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_idle_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_idle_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_impactado_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_impactado_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_saltando_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/jugador_saltando_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/mensaje_como_jugar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/mensaje_ganar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/mensaje_perder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/menu_fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/moneda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/musica_ambiente.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/planeta_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/planeta_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/res/recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/Espacio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/EventosPulsacion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/EventosTeclado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/Globales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/Res.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/graficos/Animacion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/layers/GameLayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/layers/Layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Bloque.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Boton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/DisparoJugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Enemigo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/EnemigoInteligente.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Fondo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Jugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Modelo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Pad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Texto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/.idea/naves.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/asteroide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/bloque_fondo_muro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/bloque_metal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/bloque_tierra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/boton_disparo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/boton_jugar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/boton_pausa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/boton_salto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/copa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/corazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/disparo_enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/disparo_jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/disparo_jugador2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/efecto_disparo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/efecto_explosion.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/enemigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/enemigo_morir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/enemigo_movimiento - copia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/enemigo_movimiento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/fondo_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/icono_puntos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/icono_recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/icono_vidas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_corriendo_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_corriendo_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_disparando_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_disparando_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_idle_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_idle_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_impactado_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_impactado_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_saltando_derecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/jugador_saltando_izquierda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/mensaje_como_jugar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/mensaje_ganar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/mensaje_perder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/menu_fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/moneda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/musica_ambiente.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/planeta_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/planeta_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/res/recolectable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/EventosTeclado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/Globales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/Res.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/graficos/Animacion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/layers/GameLayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/layers/Layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/modelos/Bloque.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/modelos/DisparoJugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/modelos/Enemigo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/modelos/Fondo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/modelos/Jugador.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/modelos/Modelo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plataformas/src/modelos/Texto.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,85 +321,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Boton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Boton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Globales.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/Globales.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Layer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/layers/Layer.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="GameLayer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/layers/GameLayer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventosTeclado.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/EventosTeclado.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pad.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Pad.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventosPulsacion.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/EventosPulsacion.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,7 +401,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="1194" />
     <option name="height" value="1047" />
@@ -240,6 +455,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cocos2d" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -276,6 +492,7 @@
       <updated>1537952798652</updated>
       <workItem from="1537952802313" duration="8758000" />
       <workItem from="1538557733426" duration="8413000" />
+      <workItem from="1539768149665" duration="130000" />
     </task>
     <task id="LOCAL-00001" summary="xzcv">
       <created>1537961554469</created>
@@ -288,17 +505,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17171000" />
+    <option name="totallyTimeSpent" value="17301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1194" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23429541" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -311,6 +526,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +540,48 @@
     <option name="LAST_COMMIT_MESSAGE" value="xzcv" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/Globales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/layers/GameLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4998">
+          <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/EventosTeclado.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Pad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/EventosPulsacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/naves/src/layers/GameLayer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -506,18 +764,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pataformas2/Main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pataformas2/src/Espacio.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
           <caret line="177" column="61" selection-start-line="177" selection-start-column="61" selection-end-line="177" selection-end-column="61" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pataformas2/res/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pataformas2/src/modelos/Enemigo.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -561,15 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/DisparoJugador.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/res/enemigo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/res/bloque_metal.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/res/0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -607,13 +850,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/layers/GameLayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+        <state relative-caret-position="4998">
+          <caret line="294" selection-start-line="294" selection-end-line="294" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/layers/Layer.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/Main.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -632,21 +872,21 @@
     <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/Globales.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/src/modelos/Boton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pataformas2Entenamiento/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>

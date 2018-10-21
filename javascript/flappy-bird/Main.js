@@ -9,7 +9,6 @@ var gameLayer;
 // Controles
 var controles = {};
 
-
 // Inicio capas y bucle del juego
 function iniciarJuego() {
 	gameLayer = new GameLayer();

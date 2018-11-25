@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Flappy Bird</title>
+    <style>
+        * { padding: 0; margin: 0; }
+        canvas {
+            background: #eee;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<canvas id="canvas" width="480" height="320"></canvas>
+
+<!-- THE GAME SPACE -->
+<script src="src/GameSpace.js"></script>
+
+<!-- MODELS -->
+<script src="src/models/Model.js"></script>
+<script src="src/models/Bird.js"></script>
+<script src="src/models/Pipe.js"></script>
+<script src="src/models/Background.js"></script>
+
+<!-- LAYERS -->
+<script src="src/layers/Layer.js"></script>
+<script src="src/layers/GameLayer.js"></script>
+
+<!-- RESOURCES -->
+<script src="src/Res.js"></script>
+
+<!-- MAIN -->
+<script src="src/Events.js"></script>
+<script src="Main.js"></script>
+
+</body>
+</html>

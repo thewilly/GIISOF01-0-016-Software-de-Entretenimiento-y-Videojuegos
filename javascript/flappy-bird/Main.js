@@ -1,39 +1,48 @@
-// Canvas y contexto del Canvas
+// Canvas y contexto
 var canvas = document.getElementById("canvas");
 var contexto = canvas.getContext("2d");
 var escaladoMinimo = 1;
 
 // Capas
+var layer;
 var gameLayer;
+var menuLayer;
 
 // Controles
 var controles = {};
 
 // Inicio capas y bucle del juego
 function iniciarJuego() {
-	gameLayer = new GameLayer();
-	setInterval(loop, 1000 / 60);
+    //gameLayer = new GameLayer();
+    menuLayer = new MenuLayer();
+    layer = menuLayer;
+    setInterval(loop, 1000 / 30);
 }
 
-function loop() {
-	console.log("loop - ")
-	gameLayer.actualizar();
-	gameLayer.procesarControles();
-	gameLayer.dibujar();
+function loop(){
+    layer.actualizar();
+    if ( entrada == entradas.pulsaciones) {
+        layer.calcularPulsaciones(pulsaciones);
+    }
+    layer.procesarControles();
+    layer.dibujar();
+
+    actualizarPulsaciones();
 }
+
 
 // Cambio de escalado
-window.addEventListener('load', resize, false);
+window.addEventListener('load', this.resize, false);
 
 function resize() {
-	console.log("Resize")
-	var escaladoAncho = parseFloat(window.innerWidth / canvas.width);
-	var escaladoAlto = parseFloat(window.innerHeight / canvas.height);
+    console.log("Resize")
+    var escaladoAncho = parseFloat(window.innerWidth / canvas.width);
+    var escaladoAlto = parseFloat(window.innerHeight / canvas.height);
 
-	escaladoMinimo = Math.min(escaladoAncho, escaladoAlto);
+    escaladoMinimo = Math.min(escaladoAncho, escaladoAlto);
 
-	canvas.width = this.canvas.width * escaladoMinimo;
-	canvas.height = this.canvas.height * escaladoMinimo;
+    canvas.width = this.canvas.width*escaladoMinimo;
+    canvas.height = this.canvas.height*escaladoMinimo;
 
-	contexto.scale(escaladoMinimo, escaladoMinimo);
+    contexto.scale(escaladoMinimo,escaladoMinimo);
 }

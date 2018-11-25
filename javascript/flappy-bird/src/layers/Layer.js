@@ -1,18 +1,28 @@
 class Layer {
 
-	constructor() {}
+    constructor() {
 
-	// En cada iteración fp del juego
-	actualizar() {}
+    }
 
-	dibujar() {}
+    // En cada iteración fp del juego
+    actualizar (){
 
-	// Para capas con elementos táctiles
-	// Calcula en que botón caen las pulsaciones
-	calcularPulsaciones(pulsaciones) {}
+    }
 
-	// Para enviar ordenes de control
-	// mover jugador, etc.
-	procesarControles() {}
+    dibujar (){
+
+    }
+
+    // Para capas con elementos táctciles
+    // Calcula en que botón caen las pulsaciones
+    calcularPulsaciones(pulsaciones){
+
+    }
+
+    // Para enviar ordenes de control
+    // mover jugador, etc.
+    procesarControles(){
+
+    }
 
 }
